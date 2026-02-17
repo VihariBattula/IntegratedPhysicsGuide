@@ -1,0 +1,451 @@
+
+
+===== PAGE 1 =====
+
+
+
+===== PAGE 2 =====
+
+EXPERIENCE  1  Vector  Mathematics
+You  will  often  need  to  add  or  subtract  vectors.  The  resultant is  a  vector  that  is  the  sum  of  two  or  more  vectors.  There  are  two  methods  for  determining  resultants:  graphical  (the  head-to-tail  method)
+and
+
+analytical.
+
+EXPERIENCE  1  Vector  Mathematics  (continued)
+Analytical  Method The  horizontal  and  vertical  components  of  any  two-dimensional  motion  are
+independent
+
+of
+
+each
+
+other.
+
+Motion
+
+in
+
+one
+
+direction
+
+does
+
+not
+
+affect
+
+motion
+
+in
+
+the
+
+other
+
+direction.
+
+You
+
+use
+
+that
+
+independence
+
+to
+
+add
+
+and
+
+subtract
+
+vectors
+
+analytically.
+
+When  adding  two  vectors,  add  the  x -component  of  one  vector  to  the  x -component  of  the  other  vector.
+The
+
+result
+
+is
+
+the
+
+x
+-component
+
+of
+
+the
+
+resultant
+
+vector.
+
+In
+
+the
+
+same
+
+way,
+
+add
+
+the
+
+y
+-components
+
+of
+
+two
+
+vectors
+
+to
+
+determine
+
+the
+
+y
+-component
+
+of
+
+the
+
+resultant
+
+vector.
+
+Once
+
+you
+
+have
+
+the
+
+x
+-
+
+and
+
+
+===== PAGE 3 =====
+y -components  of  the  resultant  vector,  use  the  Pythagorean  theorem  to  determine  the  magnitude  of
+the
+
+displacement.
+
+Adding  Components  To  add  vectors  analytically,  represent  each  vector  as  the
+hypotenuse
+
+of
+
+a
+
+right
+
+triangle.
+
+Then,
+
+add
+
+the
+
+respective
+
+x
+-components
+
+and
+
+y
+-components.
+
+
+
+===== PAGE 4 =====
+
+
+===== PAGE 5 =====
+
+
+===== PAGE 6 =====
+
+
+===== PAGE 7 =====
+
+
+===== PAGE 8 =====
+
+
+===== PAGE 9 =====
+
+
+===== PAGE 10 =====
+
+
+
+===== PAGE 11 =====
+
+
+===== PAGE 12 =====
+
+
+===== PAGE 13 =====
+
+
+===== PAGE 14 =====
+
+
+===== PAGE 15 =====
+
+
+===== PAGE 16 =====
+
+
+===== PAGE 17 =====
+
+
+===== PAGE 18 =====
+
+
+===== PAGE 19 =====
+
+
+===== PAGE 20 =====
+
+
+===== PAGE 21 =====
+
+
+===== PAGE 22 =====
+
+
+===== PAGE 23 =====
+
+
+===== PAGE 24 =====
+
+
+===== PAGE 25 =====
+
+
+===== PAGE 26 =====
+FORCES:
+
+
+===== PAGE 27 =====
+
+
+===== PAGE 28 =====
+
+
+===== PAGE 29 =====
+
+
+===== PAGE 30 =====
+
+
+===== PAGE 31 =====
+
+
+===== PAGE 32 =====
+
+
+===== PAGE 33 =====
+
+
+===== PAGE 34 =====
+
+
+===== PAGE 35 =====
+
+
+===== PAGE 36 =====
+
+
+===== PAGE 37 =====
+
+
+===== PAGE 38 =====
+Student  Whiteboard  Questions  1.  Describe  the  landing  pad  for  high  jumpers  and  pole  vaulters.  Why  is  the  pad   constructed  in  this  manner?   2.  Describe  whether  you  would  prefer  a  pedal  or  a  switch  to  activate  the  braking    system  for  a  car.  Be  certain  to  address  both  mechanisms  in  your  answer.     3.  How  do  seatbelts  and  airbags  help  improve  passenger  safety  if  a  car  accident      were  to  occur?   4.  Besides  seatbelts  and  airbags,  how  else  can  we  improve  car  safety  for   crashes?  Elaborate   5.  Someone  throws  you  a  water  balloon.  How  will  you  try  to  catch  it  so  that  it   doesn’t  burst?   6..  When  you  jump  off  of  any  type  of  elevated  surface  and  land  on  the  ground,   what  is  the  best  way  to  land  and  why?
+
+===== PAGE 39 =====
+
+
+===== PAGE 40 =====
+
+
+===== PAGE 41 =====
+
+
+===== PAGE 42 =====
+ Conservation  of  Momentum  Whiteboard  Problems   1.  What  is  meant  by  the  concept  of  “Conservation  of  Momentum”?    The  amount  of  momentum  before  a  collision  is  equal  to  the  amount  of   momentum  after  the  collision.  Assuming  no  friction   2.  Provide  a  model  of  a  scenario  in  which  momentum  is  conserved.   One  example–Drawing two  billiard  (pool)  balls  colliding.     3.  Describe  the  types  of  collisions.   Provide  an  example  of  each.  Elastic  collisions–the  items  are  separate  from  each  other  before  and  after     the  collision  (using  a  bat  to  hit  a  baseball)  Inelastic  collisions–the  items  are  separate  prior  to  collision  but  combine  after     the  collision  (one  football  player  fully  tackling  another)   4.  What  is  the  connection  between  types  of  collisions  and  conservation  of  momentum?   In  both  types  of  collisions,  the  momentum  before  and  after  collision  are  equal   5.  Pretend  you  are  driving  a  bumper  car.   The  total  mass  of  you  and  your  car  is  285  kg.    You  are  driving  at  an  incredible  velocity  of  2.7  m/s!!   You  collide  with  another   driver  and  their  car  (257  kg)  which  is  moving  at  -1.8  m/s  in  front  of  you.   After  the
+elastic
+
+collision,
+
+the
+
+other
+
+car
+
+bounces
+
+back
+
+at
+
+2.1
+
+m/s.
+
+  A.  Should  your  new  velocity  be  positive  or  negative?  Why?        Your  velocity  should  be  negative  because  the  other  driver  and  car          have  enough  velocity  and  mass  to  send  you  in  the  opposite  direction
+
+===== PAGE 43 =====
+B.  Calculate  your  new  velocity        P
+i
+ =  P
+f
+
+        m
+1
+v
+1
+ +  m
+2
+v
+2
+  =  m
+1
+v
+3
+ +  m
+2
+v
+4
+         285(2.7)  +  257(-1.8)  =  285(v
+3
+)  +  257(2.1)           306.9  =285(v
+3
+)  +  539.7       v
+3
+=-0.82  m/s        6.  You  love  riding  your  skateboard.   In  front  of  you  is  your  motionless  3.7  kg  skateboard   on  the  ground.   You,  75  kg,  start  running  to  jump  on  and  ride  your  skateboard.
+You
+
+are
+
+running
+
+at
+
+8.4
+
+miles
+
+per
+
+hour
+
+when
+
+you
+
+jump
+
+onto
+
+the
+
+skateboard.
+   A.  Will  your  new  velocity  be  greater  than  or  less  than  to  your  original     velocity?  Why?     The  final  velocity  of  should  be  less  than  your  initial  velocity     because  the  mass  has  increased  after  the  collision.         B.  Calculate  the  new  velocity     8.4  miles/hour  X  1609  m/1mile  X  1  hr/3600  sec  =  3.75  m/s         P
+i
+ =  P
+f
+
+        m
+1
+v
+1
+ +  m
+2
+v
+2
+  =  (m
+1
++m
+2
+)  v
+3
+           75(3.75)  +  3.7  (0)  =  (75+3.7)v
+3
+      v
+3
+=3.58  m/s    7.  Sivaram  and  Akira  are  in  the  International  Space  Station.   They  want  to    teach  others  about  Newton’s  third  law  of  motion  on  their  Tik  Tok  account.  So,   they  start  connected  and  are  motionless.  Then,  Akira  pushes  off  of  Sivaram.
+Akira
+
+has
+
+a
+
+mass
+
+of
+
+65kg
+
+while
+
+Sivaram
+
+is
+
+73kg.
+
+After
+
+the
+
+push,
+
+Akira
+
+moves
+
+at
+
+-2.8
+
+m/s.
+
+    A.  Will  Sivaram’s  velocity  be  greater  than  or  less  than  Akira’s  velocity?   Why?  Sivaram’s  final  velocity  should  be  less  than  Akira’s  because  his
+
+===== PAGE 44 =====
+ mass  is  greater.   B.  Calculate  Sivaram’s  velocity.    P
+i
+ =  P
+f
+
+                         0   =  m
+1
+v
+1
+ +  m
+2
+v
+2
+  0  =  65(-2.8)  +  73(v
+2
+)  2.49  m/s=  v
+2

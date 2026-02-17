@@ -1,0 +1,1384 @@
+
+
+===== PAGE 1 =====
+Displacement and Velocity
+Displacement
+Position and Displacement The position of an object is a measure of where the object is at
+a particular time with respect to some reference point. You will use units of meters (m) for
+position, but other units include miles and inches. Displacement is the change in position of
+an object, Distance traveled is the total length of the path traveled between two positions.
+DIsplacement
+Ad= d  di
+Ad = displacement
+d; = initial position
+dy = final position
+Displacement(continued)
+EXPERIENCEIT!
+Use a piece of tape to mark your position. Take four steps forward. Then turn to your right and take
+three steps. Count howmany steps it takes to get back to where you started,following a straight
+line.
+Representing Displacement Distance traveled is an example of a scalar quantity, a
+vector quantity, a quantity having both magnitude and direction. You can refer to such
+quantities more simply as vectors and scalars.You can represent a vector using an arrow,
+with the length of the arrow indicating the magnitude. A vector can also be represented
+mathematically asa set of components.Avector component,or simply a component,isthe
+component, use x to represent horizontal motion and y to represent vertical motion.
+
+===== PAGE 2 =====
+Components A coordinate system is
+Magnitude The components make a right
+defined with the X-direction parallel to
+triangle with the displacement vector.
+Xylophone Way and the y-direction
+You canuse the Pythagorean theorem to
+parallel to Ypsilanti Drive. The
+determine the magnitude of the
+distances you would have walked along
+displacement from the components.
+the two roads are the components.
+Id]
+50m
+100 m
+d = (100 m)x + (50 m)
+This little hat is a symbol that
+Idl = V(100 m)2 + (50 m)2
+represents a unit of distance in
+a particular direction.
+In general, adding the magnitudes of the
+Id) = 112 m
+components will not give you the magnitude
+of the vector!
+EXPERIENCE 1
+Vector Mathematics
+You will often need to add or subtract vectors. The resultant is a vector that is the sum of two or
+more vectors. There are two methods for determining resultants: graphical (the head-to-tail method)
+and analytical.
+EXPERIENCE 1
+Vector Mathematics (continued)
+Analytical Method The horizontal and vertical components of any two-dimensional motion are
+independent of each other.Motion in one direction does not affect motion in the other direction.You
+usethat independenceto add and subtractvectors analytically.
+When adding two vectors, add the x-component of one vector to the x-component of the other vector.
+The result is the x-component of the resultant vector. In the same way, add the y-components of two
+vectors to determine the y-component of the resultant vector. Once you have the x- and
+
+===== PAGE 3 =====
+y-components of the resultant vector, use the Pythagorean theorem to determine the magnitude of
+the displacement.
+Adding Components To add vectors analytically, represent each vector as the
+hypotenuse of a right triangle. Then, add the respective x-components and
+y-components.
+10
+Resultant
+C =A + B
+-2
+-4
+-6
+10
+x (m)
+
+===== PAGE 4 =====
+SAMPLEPROBLEM
+Row, Row, Row Your Boat
+Starting from one shore, you row a boat across a narrow river to the other shore. The river
+is 22.0 m wide. As you row, the river current moves your boat down the river a distance of
+35.0 m. What is the resultant displacement of your boat? Express your answer in
+components, and then determine the magnitude.
+1.DRAW A PICTURE Sketch a picture of the situation.
+35.0 m
+△ dres
+22
+
+===== PAGE 5 =====
+Dot Diagrams
+Motion is a change in position. You can use video to measure change in position with time.
+individual image is a frame. Individual frames can be layered on top of each other,
+producing a motion diagram. A motion diagram shows an object's position at several
+equallyspacedmoments intime.
+Motion Diagram Individual frames from a video of a skier are
+layered on top of each other. The composite image shows the
+skier's position at several equally spaced moments in time.
+To simplify a motion diagram, you can model the object as a dot. A dot diagram is a
+motion diagram in which each position of the moving object of interest is represented as a
+single point. A key feature of a dot diagram is that the time interval, or step, between
+successivedotsisconstant.
+
+===== PAGE 6 =====
+Position Graphs
+Strn ig ht-line motion in which the position cha nges the  me amount in each time inte rval ic
+alled uniform motion. Motion in which the position does not change the me amount in
+each time inte rval is called noruniform motion. You can gr ph either port of motion by
+starting with a dot diag ram. You then comve rt the dot diag ram into a gra ph of poeition as
+function of time, called a position ve. time g raph, or a pcaiticn graph.
+YOCABULARY
+The ward uniform ca mes fra m the Latin wo rd uniformis, which means 'haing anly ane farm ar s hape.'
+Urifarm matian means matian that stays the same.
+Unlfom Motion Eq ually s paced dats in a dat diag ram indicate urifa rm
+matian. A inear (meari ng fallowing a straig ht ine) pasitian g raph akd
+indicates urifa rm matia n.
+The dat diag ram has been
+rotated ta alig n with the
+pasitia n axis . Suoossive
+timeintervak betwsen dots
+in the dat diagram
+represents ca nstant
+intervaks an the time axis.
+Arraws between the dats in the dat
+diag ram are dis placement vecta rs .
+The dis plbocememt far eachintervalin
+ti me is canstant far urifarm matian.
+Nonunifom Motion U neq ually s paoed dats indicate na nurifarm
+matian. A curved pasitian g raph aka indicates na nurifarm matian.
+The dis placement decreases
+with s ucoessive ti me intervak,
+indicati ng that the a bject is
+slowing dawn.
+The dis placements are
+different, but the ti me
+intervalis co nstant.
+
+===== PAGE 7 =====
+SAMPLE PROELEM
+An Ant on a Meter Stick
+You time an ant s moveme nt as it wolks along a meter stick. You record the following
+data: [0 s, 0.10 m), (1.0 s, 0.18 m), (2.0 s, 0.26 ml). Determine the ant' s velocity from
+the slope of the position ve. time gaph.
+1. DR.AW A FIC TURE Sketch a picture af the sit uatian.
+10 cm
+18cm
+20cm
+20
+10
+25
+30
+cm
+2. DEFINE THE PR.OELEIM Lis t knawns and unk nowns, and assig nvalues to vari ablkes.
++(s)
+0.0
+0.10
+10
+0.18
+20
+0.26
+W=?
+3. FLAN AND EXECUTE Use m athemati cal rebtianships, the picture, and your definitians to
+plan a nd execute a solutia n.
+Gnph the position as a function of time using the data provided. Sinoe the
+graph is a stra ig ht line, you know the motion is uniform.
+0.3
+1.
+1()
+For uniform motion, choose any two points to determine the slope.
+.atm  8. 3 m
+= 0.08 m/s
+383  1.83
+4. EVALUA TE Relect on your arswer.
+Allaf the uits areappro priatefarthegiven qutities. The ans wer is resd nable,since yau
+know t hat an a nt can d nly mave as mallfractia n af a m eter sachsecond.
+
+===== PAGE 8 =====
+Speed and Velocity Graphs
+You probably use the words velocity and speed interchangeably in everyday conversation.
+However, in physics, speed and velocity are not the same quantities, in the same way that
+displacement and distance traveled are different quantities. Unlike velocity, speed has no
+direction. This can result in the speed being greater than the velocity when averaged over
+a trip.
+As an example, suppose you make a trip to the store and back. You have an average
+speed greater than zero, because you travel some distance. However, since your position
+velocity are zero. Sometimes it is more useful to determine a speed, while other times it is
+more useful to determine a velocity.
+Differentiating Speed and Velocity Suppose you ride your bicycle
+to pick up a few Items at the neighborhood grocery store, which Is
+3 km away. You realize you have forgotten to bring any money, so
+you turn around and arrive back home 30 minutes later.
+Velocity vs. Time
+Speed vs. Time
+Position vs. Time
+15g
+120
+(y/w) paads
+Positive
+Negative
+slope
+0.2 0.3 0.4 0.5 0.6
+0.10
+0.2
+0.1 0.2 0.3 0.4 0.5 0.6
+0.1
+0.6
+Time (h)
+The position vs. time graph
+Your velocity going toward the
+Your speed has no direction, so
+you go 12 km/h both going to
+shows your position relative to
+store is 12 km/h, Your velocity
+your home. For the entire trip.
+and retuming from the store.
+coming back home is 12 km/hr.
+your displacement is zero.
+
+===== PAGE 9 =====
+Modeling Uniform Motion
+Position vs. Time You have seen that the slope of a position vs. time graph is the velocity
+You can also use a position graph to write an equation for the position as a function of
+time for uniform motion. The general equation for a line is y(x) = mx + b, where m is the
+slope, and b is the y-intercept. When the position graph is a line, you can write the general
+equation in terms of the specific variables for initial position, final position, velocity, and
+time.
+In much the same way, you can go in the other direction and sketch a position graph when
+convert graphs to equations and equations to graphs.
+Position Graph to Equation The general equation for a
+line can be used to generate an equation for position.
+For both graphs, the
+slope is the ratio of the
+vertical change to the
+Ad
+Ay
+horizontal change. On
+a position graph, slope
+Ax
+At
+is velocity, v.
+Ad
+Ay
+Ax
+At
+d = vt + d
+y=mx+b
+The table shows the
+Intercept
+Horizontal
+Vertical
+Slope
+corresponding
+variables in the graphs.
+yvs. X
+d vs. t
+
+===== PAGE 10 =====
+ModelingUniformMotion(continued)
+Velocity vs. Time You can use a velocity vs. time graph to write an equation for the
+displacement. The area under the line is the displacement for the time period highlighted.
+If the function is above the t-axis, the area is positive. If it is below the t-axis, the area is
+negative.
+When you compare the equation derived using the position vs. time graph to the equation
+derived using the velocity vs. time graph, keep in mind that d represents position and Ad
+represents displacement. The area under the line does not tell you about position, only
+about displacement.
+Velocity Graph and Displacement A velocity vs.time
+graph for uniform motion is flat, since velocity is constant.
+The area under the function is proportional to
+the time interval from t, to t. It represents
+Area = Base × Height
+the displacement for the time interval.
+v(t)
+Ad
+Area = v△t
+At
+Height
+△d = v△t
+Rearranging the equation for
+Area = Base × Height
+velocity shows that the area
+equals the displacement.
+Ad=Area
+t2
+
+===== PAGE 11 =====
+Instantaneous Velocity
+Instantaneous velocity is the average velocity over an infinitesimally small time interval. To
+straight line through a pair of infinitely close points on a curve is the tangent line, or
+tangent, for short. The slope of the tangent line on a position vs. time graph is the
+instantaneous velocity.
+Determining Instantaneous Velocity Look at the
+palqo ue Joy ej uopjsod pue webe[p top
+with nonuniform motion. The more you zoom in
+on a region of the graph, the more uniform the
+45.3
+motion looks.
+51T
+80
+44.7
+2.99
+3.00
+3.01
+60
++ (s)
+3.0
+3.2
+2.8
+The slope of the zoomed-in
++ (s)
+Iine of uniform motion Is the
+20
+Extending the line of the
+instantaneous velocity.
+zoomed-in motion gives a
+line tangent to the function.
++(s)
+A car's speedometer
+140
+measures the magnitude
+of instantaneous velocity.
+200
+km/h
+
+===== PAGE 12 =====
+Graphs of Changing Velocity
+When you look at how the tangent's slope changes on a position vs. time graph, you are
+finding the time derivative of the position. The time derivative of a function is the rate at
+which the value of the function changes with time. You can see that the time derivative at
+any point is the slope of the curve at that point.
+VOCABULARY
+The word derivative comes from the Latin word derivatus, which means “to draw off.~ when you
+Zero
+slope
+Position vs. Time A positive
+tangent slope indicates
+Negative
+positive velodity a negative
+slope
+Positive
+slope indicates negative
+slope
+velocity, and a flat tangent
+Iine indicates zero velocity.
+Positive velocity
+Velocity vs. Time The slope
+of the tangent at each
+Zero velocity
+instant on the position vs.
+time graph can be used to
+construct a velocity vs. time
+Negative velocity
+graph.
+
+===== PAGE 13 =====
+speed
+ConstantAcceleration
+You can construct two equations for constant accelerated motion through analysis of the
+graph of an object's velocity vs. time. The two equations that describe an object's velocity
+and displacement are called equations of motion.
+Velocity Equation As you did with the position graph for uniform motion, you can write an
+equation for velocity as a function of time for constant accelerated motion.
+Equation af Motion (Velocity)
+w=#+at
+U = velocity
+α = acceleration
+= initial velocity
+t= time
+Velocity Graph to Velocity Equation The general equation for a line
+can be used to produce a mathematical expression for the velocity.
+For both graphs, the slope
+is the ratio of the vertical
+change to the horizontal
+change. On a velocity
+graph, slope ls acceleration.
+y=mx + b
+=at+
+Vertical
+Intercept
+Horizontal
+Slope
+The table shows the
+correspondence
+between the variables
+yvs. x
+in the two graphs.
+vvs. t
+
+===== PAGE 14 =====
+Constcnt Acceleration (continued 1)
+Displacement Equation When you calculate the tangent slope,you are finding the time
+integral. The resulting integral of the velocity vs. time graph for constant accelerated
+motion provides an equation for displacement as a function of time.
+EquationofMotion(Displacement)
+Ad= uit +=at?
+Ad = displacement
+t= time
+Wi = initial velocity
+a, =acceleration
+Velocity Graph to Displacement Equation A velocityvs.time
+graph for constant accelerated motion is a straight line. The
+sum of the area of the rectangle and the area of the triangle is
+the displacement for the time period highlighted.
+The area of a triangle is half the
+product of its base and height
+Base × Huri
+Aui =
+tx(v-v)
+The area of a rectangle is the
+Arri
+product of its base and height.
+Areet = Base X Hect
+=IXVi
+Arect
+Ad = Arect + Atri
+Ad=Vit+-
+at?
+Base
+The two equations of motion (velocity and displacement) describe the motion of any
+object that has a constant acceleration. Those two equations will also help you to solve
+problems that involve motion with constant acceleration.
+
+===== PAGE 15 =====
+Solving Nonuniform Motion Problems
+What methods can you use to solve problems that involve nonuniform
+motion?
+Graphical Method For velocity graphs, use the area under the function to determine
+the displacement. Use the slope of the function to determine the acceleration.
+Upward slopes
+Downward
+are positive.
+slopes are
+nkgative.
+The area above
+the horizontal
+axis is positive.
+The area below
+basexheight
+Areet = base × height
+Atri =
+the horizontal
+axis is negative.
+Mathematical Method Combine the two equations of motion to
+mathematically solveconstant acceleration problems.They come
+from graphical analysis of the velocity graph.
+The equations contain five different
+a= 1 m/s2
+10-
+variables.Ifyouknowthreevariables,
+then you can find the others. Place a
+check overknown values and a question
+V (m/s)
+mark over unknown values.
++=a
+1 (s)
+Au = uit + at?
+Multistep problems requirebothequations to
+single step problems
+solve. Find an equation with one unknown and
+require only one
+solve. Use that value and the other equation to
+equation to solve.
+solve for the other unknown value.
+Solve for t.
+Determine Ad.
+Solve for a.
+v-vi
+Ad=Vt+
+v-Vi
++=
+
+===== PAGE 16 =====
+Circular and Projectile Motion
+Representing Velocity
+So far. you have only learned about velocity in one dimension. However, an object's
+velocity can be defined in more than one dimension and can even change directions with
+time. Vector representations allow you to explore motion in two or more dimensions.
+Like displacement, velocity can be represented mathematically as a set of vector
+components. The components of velocity represent how fast an object is moving in the
+directions defined by a coordinate system. As before, Xrepresents horizontal motion, and
+y represents vertical motion. The Pythagorean theorem is used to determine the
+magnitude.
+Velocity in Two Dimensions The
+How fast he is
+velocity of the skateboarder as he
+moving in the
+leaves the ramp can be represented
+y-direction
+as a single arrow and as components.
+How fast he is moving
+in the X-direction
+Components A coordinate system is
+Magnitude The components make a
+defined with the x-direction parallel to
+right triangle with the velocity vector.
+the ground and the y-direction
+You use the Pythagorean theorem to
+perpendicular to the ground.
+determine the magnitude of the
+velocity from its components.
+2.0 m/s
++ b2
+5.0 m/s
+Ivl = V(5.0 m/s)2 + (2.0 m/s)2
+v = (5.0 m/s) + (2.0 m/s))
+5.4 m/s
+
+===== PAGE 17 =====
+Adding Velocities in Two Dimensions
+As with displacement in two dimensions,the horizontal and vertical components of
+velocity are independent of each other. The component of velocity in one direction does
+not affect the component in the other direction. You use that independence to add and
+subtract velocity vectors analytically.
+When adding two velocity vectors, the X-component of one velocity is added to the
+X-component of the other velocity. The result is the X-component of the resultant vector.
+You similarly add the y-components to determine the y-component of the resultant vector.
+Once you have the x- and y-components of the resultant velocity vector, you can use the
+Pythagorean theorem to determine the magnitude.
+River Crossing A person rows a boat across a river with a
+constant velocity. The river current pushes the boat
+downstream with a different constant velocity.
+Vriver
+Vriver = 2.0 m/s
+Vboat = 1.0 m/s
+Vboat
+Vtotal
+Add the x-components.Add the y-components. The results
+are the X-component and the y-component of the resultant.
+Vriver = (2.0 m/s)x + (0.0 m/s)
+Vboat = (0.0 m/s)x + (1.0 m/s)
+Vtotal = (0.0 m/s + 2.0 m/s)x + (1.0 m/s + 0.0 m/s)
+The resultant can be written in
+components or as a magnitude.
+[vtotal = V(2.0 m/s)2 + (1.0 m/s)2
+= (2.0 m/s) + (1.0 m/s)
+
+===== PAGE 18 =====
+Projectile Motion
+EXPERIENCEIT!
+Crumple up two pieces of paper. Standing side-by-side with a friend, have your friend throw one ball
+horizontally at the same time you drop your ball from the same height. Which ball hits the ground
+first?
+Independent Motions A projectile is an object that is moving through the air affected only
+by gravity. Projectile motion is the combination of uniform motion parallel to Earth's
+surface and free-fall motion, which has a constant acceleration perpendicular to Earth's
+surface. Common examples of projectile motion include a softball after it has left the hand
+of the pitcher, a stream of water from a hose, and you as you fly through the air during a
+long jump.
+You analyze two-dimensional projectile motion by separating the motion into two
+independent one-dimensional motions, one along the horizontal axis and the other along
+the vertical axis. The horizontal motion is uniform. The vertical motion is free-fall motion
+with constant accelerationg directed downward.
+Motion Diagram inTwo Dimensions Oncethe rock leaves your
+hand, the only acceleration is the acceleration due to gravity.
+which is downward. There is no horizontal acceleration.
+Velocity in the X-direction
+does not change.
+Vx
+Velocity in the y-
+direction increases.
+Vy2
+The resultant velocity is the vector sum
+of the horizontal and vertical motions.
+
+===== PAGE 19 =====
+ProjectileMotion(continued)
+GraphingProjectile Motion The path a projectiletakes is called its trajectory.A
+two-dimensional dot diagram that shows the object's total trajectory is called a trajectory
+graph. The graph can be drawn as a line or as a two-dimensional dot diagram. Be careful!
+Trajectory graphs are often confused with position graphs, since they look very similar for
+the y-directed motion.
+A projectile trajectory follows a curved path called a parabola. It can be represented
+mathematically using a second-degree polynomial, called a quadratic function, which has
+the form y(x) = ax? + bx + c.
+Trajectory Graph A trajectory
+graph is a dot diagram in two
+dimensions. It is not the same
+as a position graph because
+time is not the horizontal axis.
+Note this is not t.
+AcceleratedMotionVerticalmotionhas
+Uniform Motion The horizontal
+motion is uniform because there
+anegative acceleration,g.Do not
+confuse the parabolic graph of y versus t
+is no acceleration.
+with the parabolic trajectory graph
+of y versus x. Both graphs are parabolic,
+one in space and one in time.
+Note this is t.
+ax
+
+===== PAGE 20 =====
+ModelingProjectileMotion
+Equations of Motion in Two Dimensions As you have done in previous experiences, you
+can construct three equations that describe projectile motion through analysis of graphs
+the horizontal and vertical components of an object's velocity and displacement at all
+times, and they can be used to solve projectile problems.
+Horizontal Equartion of Motion
+A= Vat
+A=horizontal displacement component
+U = horizontal velocity component
+Vertical Equcrtions of Motion
+Uy = Uiy + gt and Ay = Uat + Igt?
+Uy = vertical velocity component
+Viy = initial vertical velocity component
+Agy = vertical displacement component
+Graphs to Math Equations are constructed from the velocity
+vs. time graphs for both the horizontal and vertical motions.
+Area
+The change in y-positionis
+a quadratic function of t,
+Ax= Ugt
+Ay = uigt - st?
+Uy =Ug-gt
+just as the trajectory is a
+quadratic function of x.
+Ax
+Ay
+Vy
+The tables list the variables
+in the equations of motion.
+Vx
+Time is the only common
+Viy
+variable; it links the x- and
+y-directed motions.
+
+===== PAGE 21 =====
+Solving Projectile Motion Problems
+Howcam yousolve projectile motion problems?
+Ste p 1 Draw a tr:je ctory graph, usi ng a useful cad rdi nate sys tem,
+that describes the pra blem and Lbel  the rekevan t weriables.
+y,iaoonatent
+At tho ome height, P, hos the >
+Step 2 Make atabke of the
+Step 3 Write the 2D equations of
+Inowms and unknoums far the
+motion. Place a check aver the knawrs
+time afinterest. There are six
+and a q uestian mark aver the unknawns.
+variabks in the 2D eq uatia ns af
+matian. You zrays knowr the
+value of g.
+Laak far squatians with any ane
+unknawn value. Sa ke far the
+unknawn. Then, use this vaue to
+Unk nowns
+Knowns
+fndnotherunnowm aue.
+Often, yauwillsake far time and
+se the value in anather eq uatia n.
+%, = at this paint
+Far a bjects launched
+ha riza mtally affa tabk, Y, = 0.
+S mi larly, far an a bject tossed
+upward, the yrvelodity at the
+moimumheighte d,evenifit
+is nat expiditly given.
+2, = at this paimt
+
+===== PAGE 22 =====
+Circular Motion
+Changing Direction When an object travels in a circular path at a constant speed, the
+motion is called uniform circular motion. Uniform circular motion is a unique type of
+two-dimensional motion in which the magnitude of the velocity remains constant, but the
+direction of the velocity continually changes. You can still use the term uniform because
+the change in velocity has a constant magnitude and acts uniformly toward the center of
+the circular motion. A vector quantity that is always directed toward the center of a circle
+is called a centripetal vector.
+VOCABULARY
+The word centripetal comes from the Latin words centrus and petus, which mean "center" and
+"seeking."respectively.
+You can show that the change in velocity is center-seeking by looking at the velocity at two
+instants in time during the circular motion. You then use the head-to-tail method to
+determine the direction of the change in velocity.
+Changing Velocity A woman swings a rock
+The change in velocity
+in a circle.The overhead view shows that
+is always toward the
+the direction of the velocity changes even
+center of the circle.
+though the magnitude stays the same.
+V2
+instantaneous
+V2
+
+===== PAGE 23 =====
+Circular Motion (continued)
+Centripetal Acceleration The acceleration of an object in uniform circular motion is called
+centripetal acceleration. The acceleration is in the direction of the change in velocity and
+is therefore also centerseeking. Like velocity, the acceleration also has a constant
+magnitude. However, you cannot use the equations of motion for constant accelerated
+motion, since the direction changes.
+Centripetal Acceleration
+ac=
+ac = magnitude of centripetal acceleration
+U = magnitude of velocity
+R = radius of circle
+Centripetal Acceleration You can use the concept of similar
+triangles to determine the magnitude of the acceleration.
+Ad
+R2
+Similar
+isosceles -
+triangles
+[v2] = [v] = v
+[R2] = [R | = R
+Similar Triangles Triangles are similar if the only difference is in size
+or orientation. The ratios of the corresponding sides are equal.
+
+===== PAGE 24 =====
+Graphing Circular Motion
+The trajectory graph for uniform circular motion is a circle. However, the graphs of
+position vs. time for the horizontal and vertical motions appear to osillate. An oseillatory
+motion is any motion in which an object repeats the same movement over and over.
+Oscillatory motion can be described mathematically using either a sine wave or a cosine
+wave, which are trigonometric curves that describe smooth periodic oscillation. When a
+sine wave is at its maximum, the corresponding cosine wave is at its zero, and vice versa.
+OscillatoryMotion
+x = R cos(t) and y = R sin(t)
+Circular Trajectory Not surprisingly, the trajectory graph
+The position graph for
+for an object moving counterclockwise in a circle is circular
+the vertical motion is a
+However, the position vs.time graphs are sinusoidal.
+sine wave.
++y1
+X2
++t
++x
+Y2-
+The object has moved
+halfway around the circle.
+X2
+so its X-coordinate at t2
+As the object moves in a
++x
+is the negative of its
+circle, its y-coordinate
+X-coordinate at ti :
+oscillates betweenpositive
+and negative values.
+The position graph for
+the horizontal motion is
+a cosine wave.
+
+===== PAGE 25 =====
+Force, Mass, and Acceleration
+Changing Motion
+An object's motion does not change unless there is some cause. Newton's first law of
+motion states that objects remain at rest or continue with uniform motion in a straight
+line unless some action causes a change in motion. In the previous investigation, you
+modeled acceleration, or a change in velocity. In this investigation,you will model the
+causes of acceleration.
+Causeand EffectAsoccergoaliechanges
+the balls motion by striking it with her
+Cause
+hands.The ball's acceleration is the effect
+of the impact.
+The change in
+Effect
+velocity points in
+the same direction
+as the acceleration.
+toall
+
+===== PAGE 26 =====
+FORCES:
+force. When you push a door closed, for excmple: you cre exerting a
+force on the door. When you pull a drawer open, you are exerting a
+same time. The strength cnd direction of ecrch of these forces ccn
+ccruse cn object's motionto change.
+Geologists study the forces thct chcrnge Ecrth's surfcrce. Some of
+movement of Ecrrth's tectonic plcrtes. Other changes are extensive or
+very sudden, such as the rockslide pictured here.
+What causes lcrge mcrsses of rock cnd debris to quickly move down
+a steep slope? How do factors such cs precipitation, wecthering.
+erosion, cnd temperature crffect rockslides? Answering these
+surface.
+
+===== PAGE 27 =====
+Inertia
+Some objects accelerate more easily than others.It is easier to push a lawnmower acros:
+the ground than to push a car. The car resists the change in motion more, which means
+you have to push it harder to achieve the same acceleration. An object's resistance to a
+changein its motion is called inertia.
+VOCABULARY
+whentalking about someone who has trouble getting started with atask.
+The mass of an object is a measure of its inertia, and the Sl unit of mass is the kilogram
+(kg). The car has more mass; therefore it has more inertia, making it harder to accelerate
+than the lawnmower. Mass can also be thought of as the amount of"stuff," determined
+by the number and types of atoms in the object. That amount does not change with
+location,meaning that the mass of an object is the same on Earth, on the moon, or
+floating in space.
+Mass and Acceleration
+The hovercraft's fan
+produces equal causes in
+both scenarios. However,
+the effects on the
+V2
+hovercraft's motion are
+different because of the
+different masses.
+The acceleration is
+smaller because the
+mass is larger.
+Inversely Proportional
+Anobject'saccelerationis
+As m increases,
+inversely proportional to
+a decreases.
+its mass when the cause
+is the same.
+
+===== PAGE 28 =====
+Force Causes an Acceleration
+A force is the cause ofa change in motion or change in shape resulting from the
+unopposed interaction between objects. The interaction between a goalie's hand and a
+soccer ball results in a force that causes the acceleration of the ball. Force is measured in
+any time. The vector sum of all of the forces acting on an object is called the net force.
+The mathematical relationship between the net force (cause) and the change in motion
+(effect) is known as Newton's second law of motion.
+Newton's Second Law of Motion (Acceleration)
+ZF= ma
+F=net force
+m=mass
+α = acceleration
+Mass and Force A larger net force (the cause)
+results in greater acceleration (the effect).
+a&EF
+V2
+The acceleration is
+directly proportional
+to the net force when
+the mass is the same.
+
+===== PAGE 29 =====
+I Push You, and You Push Back
+EXPERIENCEIT!
+Have a classmate take your hand and gently pull it. Can you feel the stretch in the muscles in your
+arm? Can your classmate feel a similar stretch? In which direction do you feel the pull? In which
+direction does your classmate feel it?
+Force results from the interaction between objects, which means that it takes two objec
+interacting in some way to produce a force. Newton's third law of motion states that th
+interaction between two objects can be represented as two forces having equal
+exerts an equal and opposite force on object A.
+To help make the law clear, you will use a special subscript notation to keep track of
+objects and their interactions. The force exerted by object A on object B is written as Fa
+and the force exerted by object B on object A is written as FBa. The two related
+action-reaction forces described by Newton's third law are called a third-law pair. A
+third-law pair of forces represents the interaction, whereas each individual force
+represents how that interaction will affect an individual object.
+Third-Law Pairs Forces come in pairs because they result from interactions.
+The forces on the interacting objects are equal and opposite.
+FcF
+Force exerted by the floor on the crate
+FFC
+HANDLE WITH CARE
+HANDLEWITH CARE
+Force exerted by the crate on the floor
+>FCE
+
+===== PAGE 30 =====
+Representing Forces
+Force as a Vector When you evaluate how a specific interaction or set of interactions will
+affect a single object, you model all of the forces acting on that object to determine the
+net force. For example, to model how the motion of a piece of rope might change when
+law pairs are the forces the rope exerts on the people, which tell you how they move and
+not how the rope moves; so you leave those out of your model.
+Summing Forces Forces are vectors. The net force is the
+vector sum of all of the forces acting on an object.
+Step 1: Define the object of interest.
+Draw the forces on the object.
+These forces are not a
+third-law pair because
+500 N
+200 N
+FiR
+F2R
+they come from different
+interactions.
+step 2: Define a coordinate system.
+>+x
+The coordinate system
+500 N
+tells you what is positive
+FIR
+and what is negative.
+F2R
+Head-to-tail method
+200 N
+Step 3: Find the sum
+ZF = 200 N- 500 N = -300 N<
+Magnitude of the
+of the forces.
+net force
+
+===== PAGE 31 =====
+Representing Forces (continued)
+Free-Body Diagrams Sometimes you will be interested in modeling the forces acting on
+multiple objects arranged in a system.A system is whatever pieces of the universe you
+are interested in studying, and it can be composed of many objects. Typically, you define
+systems as objects coupled together either mechanically or via some common interaction.
+A stack of books on a cart is an example of a system.
+A free-body diagram is a graphical representation of all of the forces and resulting effects
+representing all the forces and the acceleration. The coordinate system defines the
+directions in which the forces are oriented. The way a vector arrow points indicates the
+direction of a force, and the length of the arrow indicates its relative magnitude. The
+vector diagram for the rope is an example of a free-body diagram.
+Systems and Free-Body Diagrams There are several
+forces involved in this situation. However, suppose
+you are only interested in the forces on the cart and
+its contents. Not all forces are shown for simplicity.
+System!
+Free-body diagram for system
+FCH
+HC
+Coordinate
+system
+FBC
+These forces are
+Acceleration
+internal to the
+system.
+FGC
+FHC
+Forces
+FFG
+FGF
+CG
+The last subscript is the same.
+indicating forces on the cart.
+The third-law pairs do not appear in the free-body
+diagram because they represent forces on other
+systems, specifically the ground and the hand.
+
+===== PAGE 32 =====
+Modeling Force
+Statics and Dynamics The study of balanced forces on objects or systems that are at rest
+is called statics. Since the objects or systems do not move, the acceleration and the net
+force are always zero. Dynamics is the study of the forces on objects or systems that are
+in motion, whether that motion is uniform or nonuniform. Dynamic systems can be moving
+at a constant velocity or accelerating.For each case,youuse Newton's second lawto
+write an equation that represents the system, called a force-acceleration equation.
+Statics
+Acceleration,a,alwaysequals zero.
+Dynamics
+EF= ma
+Acceleration,a,sometimesequalszero.
+a=0
+Statics Static systems
+F28.
+FiB
+F2B
+are not moving. The
+FiB
+>+x
+acceleration and net
+force are always zero.
+二F1B ±F2B= 0
+EF=
+The net force is the
+The sign depends
+sum of the forces.
+on the direction.
+Accelerated
+Dynamics Dynamic
+F2B
+FiB
+F2B
+FrB
+systems are moving.
+>+x
+The net force is equal
+ZF = FiB - F2B = ma
+to the mass times the
+acceleration.The
+Constant velocity
+acceleration is
+a=0
+sometimes zero.
+F2B
+FiB
+F2B
+F1B
+ZF = FiB - F2B = 0
+
+===== PAGE 33 =====
+Modeling Force (continued)
+Solving Force Problems Students often think that solving physics problems involves
+finding an equation on a list and plugging in numbers. However, different situations
+require different mathematical models, so you need to write a different force-acceleration
+equation for each problem you solve. A general equation is one that is applicable across a
+large number of situations but typically requires more analysis. A specific equation is one
+that is applicable to the specific problem that concerns you. Newton's second law is an
+example of a general equation. You will use it and a free-body diagram to write specific
+force-acceleration equations for every problem.
+Writing Force-Acceleration Equations
+How do you write Newton's second law force-acceleration eguations for
+specific problems?
+F 2B
+Step 1Determine the system of interest.If
+FIB
+you want to know the acceleration or force on
+a box,thenthe systemisthe box.Consider
+F3B
+only the forces acting on the system.
+Step 2 Draw the free-body
+Draw the force vectors
+diagram for the system of
+F2B
+starting from the system.
+interest. Include the
+Draw the acceleration vector
+coordinate system and the
+FiB
+F3B
+separatelyfromthesystem
+accelerationvector.If the
+so that you do not confuse it
+acceleration is 0, label it as 0.
+with a force.
+Step 3 Use the diagram in Step 2
+General Equation
+to write the specific equation.
+Use the coordinate system to
+ma
+determine the sign for each term.
+Use the free-
+F2B
+Use the acceleration
+body diagram to
+vector to write the right
+FB
+write the left side
+F3B
+side of the equation.
+of the equation.
+Specific Equation
+The + and - signs
+indicate the direction
+-F2B-F3B +FiB=-ma<
+because all vectors point
+along the same axis.
+
+===== PAGE 34 =====
+Types of Forces
+Contact and Noncontact Forces
+There are two fundamental types of interactions between objects that can cause a change
+in motion: contact forces and noncontact forces. A contact force represents the
+interaction between objects due to direct contact with each other. A noncontact force
+represents the interaction between two objects that are separated by some distance.
+Noncontact forces are also called field forces because they result from objects exerting
+influence through the space around themselves.
+Contact Forces The surface force between the hand
+and rope keeps the orangutan attached. The spring
+forces between the atoms in the rope cause a
+stretch.
+Noncontact Forces Gravitational force tries to pullthe orangutan
+down. The electric force holds the electrons to the nucleus of the
+atom, and nuclear forces keep the nucleus from flying apart.
+
+===== PAGE 35 =====
+Weight
+The gravitational force, or gravity, is the noncontact attractive interaction between two
+objects having mass. Gravity keeps the moon in orbit around Earth and results in you
+having weight. Weight is the downward force experienced by objects resulting from their
+gravitational attraction to Earth. You can write weight as the force exerted by Earth on
+the mass (Fem), or simply as W. You can model weight as a force vector acting at the
+center of mass of the object, defined as a point representing the mean position of an
+object's matter.
+Weight
+FEM = W = mg
+W = force exerted by Earth on a mass
+m=mass
+g = -9.8 m/s²
+Gravitational Force The gravitational force between massive
+objects such as Earth and the moon is inversely proportional to
+the distance between them.
+Weight, W, acts at the
+center of mass.
+FEM
+WeightObjectsmuchlessmassive
+than Earth and near the surface
+experience a constant force
+proportional to mass because the
+FEM = FME X -
+r2
+distance to the center of Earth is
+= mg
+approximately constant.
+FME
+
+===== PAGE 36 =====
+Spring Force
+When you bounce a basketball against the floor, the ball's motion changes, but the floor's
+motion does not seem to change. However, the floor does experience an effect called
+deformation, a change in shape due to the application of a force. A simple example of a
+force; and that when no force acts, the spring returns to its original length. The constant
+of proportionality is called the spring constant, which represents the spring's resistance to
+deformation.
+Hooke'slaw
+Fso = -kAL
+Fso = force exerted by
+k=spring constant
+a spring on an object
+△L = change in length
+Hooke's law This law describes the relationship
+between the force exerted by the spring on the
+hand and the distance it is stretched or compressed.
+Fis FsH
+The force on the hand points
+in the negative direction
+when AZ is positive.
+FHs
+Fas
+FsH
+Fsr α x: The distance the spring is
+stretched is proportional to the
+force exerted by the spring on the
+hand.
+The minus sign in Hooke's law
+rise
+Slope=
+= -k
+run
+comes from the negative slope
+
+===== PAGE 37 =====
+Surface Forces (continued)
+Friction The perpencicular component of the surface force is called the normal. The
+parallel component of the surface force is called friction. Friction is partially caused by
+attractive electric forces between the surface atoms of the two objects. Once the
+surfaces start to move relative to each other, there are fewer points of contact and so
+less friction. Therefore, the magnitude of the friction clepends on whether or not the
+surfaces are moving. Static friction describes the parallel response to attempted
+motion between two surfaces. Kinetic friction describes the friction for surfaces
+moving relative to each other. The coefficient of friction describes the amount of
+resistance and depends on the properties of the two materials and whether or not
+they are moving.
+VOCABULARY
+The word normal comes from the Latin word normalis, whidh mears "made according to a
+carpenter's square." Like a square that has perpendicular sides, a normal is perpendicular to a
+surfacb.
+Static Friction
+f = friction component of the surface force
+As = coefficient of static friction
+N = normal component of the surface force
+Kinetic Friction
+f=N
+f = friction component of the surface force
+k = coefficient of kinetic friction
+N = normal component of the surface force
+Surface Force Components Surface forces have a perpendicular
+co mpone nt calle d the normal and a p arallel component calle d
+fridion.
+Friction and Normal The normal component always adts
+perpendicular to the surfacs. Friction always adts parallel and in the
+dire dtion opposite the dire dtion of motionor, for bodies at rest,
+opposite the dire dtion of any force.
+
+===== PAGE 38 =====
+Student Whiteboard Questions
+1. Describe the landing pad for high jumpers and pole vaulters. Why is the pad
+constructed in this manner?
+2. Describe whether you would prefer a pedal or a switch to activate the braking
+system for a car. Be certain to address both mechanisms in your answer.
+3. How do seatbelts and airbags help improve passenger safety if a car accident
+were to occur?
+4. Besides seatbelts and airbags, how else can we improve car safety for
+crashes?Elaborate
+5. Someone throws you a water balloon. How will you try to catch it so that it
+doesn't burst?
+6.. When you jump off of any type of elevated surface and land on the ground,
+what is the best way to land and why?
+
+===== PAGE 39 =====
+by the teacher, The answers to these questions cover the material you completed in the Momentum and Impulse Intro homework.
+What information do you need to know about an object to determine its momentum? If you were designing an experiment, what equipment
+1.
+could you use to determine this information?
+measure velocity.
+Figure out the missing variables:
+2.
+a. A person with a mass of 8okg is running at 3m/s. What is their momentum?
+Q4okg'm/s
+60(3)
+v= 3m/s
+P"m"
+m- 80ks
+A baseball ravelling 90mph has a momentum of 5.8 kg*m/s. What is its mass in grams?
+1004m
+V- 90miles
+Thr
+46.225 m/s
+36005
+Imil
+p= 5.8kg'm/s
+5.8
+10005
+0.144 29
++1144.199
+40 .a25
+c. A car that weighs 1.4 tons has a momentum of 17,033 kg*m/s. What is its velocity? (1 ton = 2,000lbs ; 2.2lb = 1kg)
+m= 1.4toas
+2000 105
+Q7Q.73k5
+22bs
+p= 17, 033 kg.m/s
+17,033
+[13.38m/s
+1273-73
+3. What does a negative momentum value mean about the motion of that object?
+The object is moving to the left (because that would mean that the velocity is also negative since mass is always positive).
+Two vehicles are traveling on a highway at 60mph. One is a sedan that weighs 1.2 tons, and the other is a truck that weighs 12.5 tons. Calculate
+4.
+their respective momentums (you will need these values for a later problem, so keep them nearby).
+1009m
+26.817m/3
+Gbmi
+Im:
+FOONE
+2000165
+Modan- I2ton.
+20001bs
+J1363.6g
+Ifan
+Prrvek : (1136 3.C)(26.817) = /304734.2% rs*m(s
+5.You're playing witha balloon.Inone situation,you hitthe balloon withaforceof 5.3Nfor 0.5s,and inanotheryouapplya continuousforceof
+2.2N for 2s. Which scenario causes the balloon to have a greater change in velocity?
+F=
+(5.3N)(0.55) : Q.65 kgm/s
+Refer back to the vehicles in problem #4. Both drivers slam on their brakes and provide 500ON of force to their respective vehicles. For simplicity's
+6.
+sake, assume that there are no other forces acting on the vehicles. How long willit take each of the vehicles to come to a stop?
+Pisedan = 29,254.4kg'm /s
+Pi+ruck ± 304,739.4 hg*m/s
+Pf Stem + O2g'm/s
+Z00om'
+
+===== PAGE 40 =====
+O2g 'm /s
+Pe trk"
+Ohg*mls
+Pf Stem:
+F: SoCoN
+Z00omL
+304,733.66
+24 254. 9
+5.855
+60.95s
+5000
+Stdm
+A softball with a mass of 0.2kg is traveling towards you at 63mph. You hit it with a bat, applying a force of-18,000N for 0.0005s. How fast willthe
+7.
+ball be going after it is hit?
+t0.0005%
+1009m
+F:-18,000 N
+28.m/s
+63mi.1
+Imi
+3600s
+Fts m(v-vi)
+(-1800) (6.0005)
++ 28.16 = F1684 m/s/
+0.Q
+Use the concepts of momentum and impulse to explain why it's important to increase the distance between your car and the car in front of you if
+you are travelling at a high speed while driving.
+A greater velocity means that your car has more momentum. If you have to stop suddenly, even if you apply the maximum force allowed by your
+
+===== PAGE 41 =====
+Individually, answer the following questions. You may use any notes. After all of your table members have completed the questions, share
+your answers and make any necessary changes.
+1. Which of the following objects has the greatest momentum?
+a. a cruise ship sitting at the dock as travelers board
+b. a train, with 25 cars full of cargo, at rest
+c. you riding a bicycle up a very steep hill
+Explain your reasoning for choosing your answer.
+You riding a bike--it's the only scenario with a non-zero velocity.
+2. A Mars rover, with a mass of 254 kg, is tested on Earth. At top speed, it reaches of 2.5 km/h.
+What is the momentum of this rover?
+10003
+m-254kg
+0.674m/s
+p=mv= (as4)(0.A4) -[176.a8 kg-m/
+When it travels the same velocity on Mars, is its momentum more, less, or the same? Explain.
+Momentum is only affected by mass and velocity, and since neither changes, the momentum is the same on Mars.
+3. A soccer player can kick a ball(0.45 kg) with a force of 270 N upfield in just 0.05 seconds. If the kicked soccer ball moved upfield at 20 m/s, what
+initial velocity did the soccer ball have?
++*0.05
+7270N m=0.4Shg
+(Q76)~0.0S)
+F)
+Vi-
+0.45
+=/-10m/s /
+4. An Olympic boxer can hit with a force of up to 450 N on stll target in a time of 0.09 seconds. Also, a typical boxer's fist with glove has a mass of 1.06
+kg. What is the velocity of the boxer's fist when it connects with the target assuming the boxer's fist starts from rest?
+V=0m/s
+1.06k9
+1:0.093
+(450 ) (0.0g)
+[38 .21 m/s]
+What is this final velocity in miles/hour?
+30 00 s
+J85.49 m9n
+33. Ql m
+1609 m
+Ihe
+If you were about to take a hit from this boxer, what could you do to lessen the force of his punch? (assume this Olympic boxer will not miss and
+you cannot completely dodge the punch).
+Lean backwards! A combination of having an initial velocity that is in the same direction as the force and increasing the time that the fist is in
+contact with your face will decrease the force.
+
+===== PAGE 42 =====
+Individually and without any help (classmates, notes, etc.), complete thefollowing questions.
+1. Consider the purpose for the creation of airbags. The following data was collected:
+Car #1—No airbag
+The test crash dummy, traveling at 25 m/s comes to a complete rest against the steering wheel in 0.25 seconds. If the test crash dummy has a
+mass of 75 kg, what was the force of the dummy against the steering wheel?
+Car #2Possesses an airbag
+The test crash dummy, traveling at 25 m/s comes to a complete rest against the steering wheelin 2.5 seconds. If the test crash dummy has a
+mass of 75 kg, what was the force of the dummy against the steering wheel?
+How are airbags capable of reducing injuries in head-on car collisions?
+Conservation of Momentum Whiteboard Problems
+1. What is meant by the concept of "Conservation of Momentum"?
+The amount of momentum before a collision is equal to the amount of
+momentum after the collision. Assuming no friction
+2. Provide a model of a scenario in which momentum is conserved.
+One example-Drawing two billiard (pool) balls colliding.
+3. Describe the types of collisions. Provide an example of each.
+Elastic collisions-the items are separate from each other before and after
+the collision (using a bat to hit a baseball)
+Inelastic collisions-the items are separate prior to collision but combine after
+the collision (one football player fully tackling another)
+4. What is the connection between types of collisions and conservation of momentum?
+In both types of collisions, the momentum before and after collision are equal
+You are driving at an incredible velocity of 2.7 m/s!! You collide with another
+driver and their car (257 kg) which is moving at -1.8 m/s in front of you. After the
+elastic collision, the other car bounces back at 2.1 m/s.
+A. Should your new velocity be positive or negative? Why?
+Your velocity should be negative because the other driver and car
+have enough velocity and mass to send you in the opposite direction
+
+===== PAGE 43 =====
+B. Calculate your new velocity
+P; = Pf
+m1V1 + m2V2 = miV3 + m2V4
+285(2.7) + 257(-1.8) = 285(v3) + 257(2.1)
+306.9 =285(v3) + 539.7
+V3=-0.82 m/s
+6. You love riding your skateboard. In front of you is your motionless 3.7 kg skateboard
+on the ground. You, 75 kg, start running to jump on and ride your skateboard.
+You are running at 8.4 miles per hour when you jump onto the skateboard.
+A. Will your new velocity be greater than or less than to your original
+velocity? Why?
+The final velocity of should be less than your initial velocity
+because the mass has increased after the collision.
+B. Calculate the new velocity
+8.4 miles/hour X 1609 m/1mile X 1 hr/3600 sec = 3.75 m/s
+P; = Pf
+m1V1 + m2V2 = (m1+m2) V3
+75(3.75) + 3.7 (0) = (75+3.7)V3
+V3=3.58 m/s
+7. Sivaram and Akira are in the International Space Station. They want to
+teach others about Newton's third law of motion on their Tik Tok account. So,
+they start connected and are motionless. Then, Akira pushes off of Sivaram.
+Akira has a mass of 65kg while Sivaram is 73kg. After the push, Akira moves at
+-2.8 m/s.
+A. Will Sivaram's velocity be greater than or less than Akira's velocity?
+Why?
+Sivaram's final velocity should be less than Akira's because his
+
+===== PAGE 44 =====
+mass is greater.
+B. Calculate Sivaram's velocity
+P; = Pf
+O = miV + m2V2
+0 = 65(-2.8) + 73(v2)
+2.49 m/s= V2
