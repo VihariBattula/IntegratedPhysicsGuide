@@ -1,0 +1,636 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Vihari Battula - Integrated Physics Curriculum Guide</title>
+  <meta name="description" content="Beginner-friendly and interactive physics guide with dense notes, clean formulas, and practice activities across six units.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Merriweather:wght@400;700;900&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['\\(', '\\)']],
+        displayMath: [['\\[', '\\]']]
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <link rel="stylesheet" href="pyshicswebsite3.css">
+</head>
+<body>
+  <header class="header">
+    <div class="brand" onclick="navigateTo('intro-page', null, 'nav-intro-page')">Vihari Battula <span>Integrated Physics Notebook</span></div>
+    <div class="header-right">
+      <span class="last-updated">Last updated: <span id="dateDisplay"></span></span>
+      <button class="btn-reveal print-btn" onclick="window.print()">Print Syllabus PDF</button>
+      <button class="menu-toggle" onclick="toggleSidebar()" aria-label="Toggle Menu"><span class="hamburger"></span></button>
+    </div>
+  </header>
+
+  <div class="app-container">
+    <nav class="sidebar">
+      <div class="nav-scroll-wrap">
+        <div class="nav-group">
+          <button class="nav-header" onclick="toggleGroup(this)">Overview</button>
+          <div class="nav-links-container">
+            <a onclick="navigateTo('intro-page', null, 'nav-intro-page')" class="nav-item nav-link active" id="nav-intro-page">Cover Page</a>
+            <a onclick="navigateTo('prologue', null, 'nav-prologue')" class="nav-item nav-link" id="nav-prologue">Curriculum Intent</a>
+            <a onclick="navigateTo('study-system', null, 'nav-study-system')" class="nav-item nav-link" id="nav-study-system">Study System</a>
+            <a onclick="navigateTo('course-map', null, 'nav-course-map')" class="nav-item nav-link" id="nav-course-map">Course Map</a>
+          </div>
+        </div>
+
+        <div class="nav-group">
+          <button class="nav-header" onclick="toggleGroup(this)">Assessments</button>
+          <div class="nav-links-container">
+            <a onclick="navigateTo('quizzes-hub', null, 'nav-quizzes-hub')" class="nav-item nav-link" id="nav-quizzes-hub">Lab Quizzes</a>
+            <a onclick="navigateTo('exam-blueprint', null, 'nav-exam-blueprint')" class="nav-item nav-link" id="nav-exam-blueprint">Exam Blueprint</a>
+          </div>
+        </div>
+
+        <div class="nav-group">
+          <button class="nav-header" onclick="toggleGroup(this)">Curriculum Units</button>
+          <div class="nav-links-container">
+
+            <div class="nav-group collapsed">
+              <button class="nav-header sub-nav-header" onclick="toggleGroup(this)">Unit 1: Position and Velocity</button>
+              <div class="nav-links-container">
+                <a onclick="navigateTo('u1-position-velocity', null, 'nav-u1-position-velocity')" class="nav-item nav-link" id="nav-u1-position-velocity">Unit Overview</a>
+                <a onclick="navigateTo('u1-position-velocity', 'u1.1', 'nav-u1-1')" class="nav-sub nav-link" id="nav-u1-1">1.1 Position and Displacement</a>
+                <a onclick="navigateTo('u1-position-velocity', 'u1.2', 'nav-u1-2')" class="nav-sub nav-link" id="nav-u1-2">1.2 Distance, Speed, Velocity</a>
+                <a onclick="navigateTo('u1-position-velocity', 'u1.3', 'nav-u1-3')" class="nav-sub nav-link" id="nav-u1-3">1.3 d-t and v-t Graph Basics</a>
+                <a onclick="navigateTo('u1-position-velocity', 'u1.equations', 'nav-u1-equations')" class="nav-sub nav-link" id="nav-u1-equations">1.E Equation Sheet</a>
+                <a onclick="navigateTo('u1-position-velocity', 'u1.activity', 'nav-u1-activity')" class="nav-sub nav-link" id="nav-u1-activity">1.A Activity</a>
+                <a onclick="navigateTo('u1-position-velocity', 'u1.mastery', 'nav-u1-mastery')" class="nav-sub nav-link" id="nav-u1-mastery">1.M Mastery Check</a>
+              </div>
+            </div>
+
+            <div class="nav-group collapsed">
+              <button class="nav-header sub-nav-header" onclick="toggleGroup(this)">Unit 2: Acceleration</button>
+              <div class="nav-links-container">
+                <a onclick="navigateTo('u2-acceleration', null, 'nav-u2-acceleration')" class="nav-item nav-link" id="nav-u2-acceleration">Unit Overview</a>
+                <a onclick="navigateTo('u2-acceleration', 'u2.1', 'nav-u2-1')" class="nav-sub nav-link" id="nav-u2-1">2.1 What Acceleration Means</a>
+                <a onclick="navigateTo('u2-acceleration', 'u2.2', 'nav-u2-2')" class="nav-sub nav-link" id="nav-u2-2">2.2 v-t and a-t Graph Basics</a>
+                <a onclick="navigateTo('u2-acceleration', 'u2.3', 'nav-u2-3')" class="nav-sub nav-link" id="nav-u2-3">2.3 Constant vs Changing Acceleration</a>
+                <a onclick="navigateTo('u2-acceleration', 'u2.equations', 'nav-u2-equations')" class="nav-sub nav-link" id="nav-u2-equations">2.E Equation Sheet</a>
+                <a onclick="navigateTo('u2-acceleration', 'u2.activity', 'nav-u2-activity')" class="nav-sub nav-link" id="nav-u2-activity">2.A Activity</a>
+                <a onclick="navigateTo('u2-acceleration', 'u2.mastery', 'nav-u2-mastery')" class="nav-sub nav-link" id="nav-u2-mastery">2.M Mastery Check</a>
+              </div>
+            </div>
+
+            <div class="nav-group collapsed">
+              <button class="nav-header sub-nav-header" onclick="toggleGroup(this)">Unit 3: Projectile Motion</button>
+              <div class="nav-links-container">
+                <a onclick="navigateTo('u3-projectile-motion', null, 'nav-u3-projectile-motion')" class="nav-item nav-link" id="nav-u3-projectile-motion">Unit Overview</a>
+                <a onclick="navigateTo('u3-projectile-motion', 'u3.1', 'nav-u3-1')" class="nav-sub nav-link" id="nav-u3-1">3.1 Horizontal and Vertical Motion</a>
+                <a onclick="navigateTo('u3-projectile-motion', 'u3.2', 'nav-u3-2')" class="nav-sub nav-link" id="nav-u3-2">3.2 Trajectory and Time</a>
+                <a onclick="navigateTo('u3-projectile-motion', 'u3.3', 'nav-u3-3')" class="nav-sub nav-link" id="nav-u3-3">3.3 Circular Motion Connection</a>
+                <a onclick="navigateTo('u3-projectile-motion', 'u3.equations', 'nav-u3-equations')" class="nav-sub nav-link" id="nav-u3-equations">3.E Equation Sheet</a>
+                <a onclick="navigateTo('u3-projectile-motion', 'u3.activity', 'nav-u3-activity')" class="nav-sub nav-link" id="nav-u3-activity">3.A Activity</a>
+                <a onclick="navigateTo('u3-projectile-motion', 'u3.mastery', 'nav-u3-mastery')" class="nav-sub nav-link" id="nav-u3-mastery">3.M Mastery Check</a>
+              </div>
+            </div>
+
+            <div class="nav-group collapsed">
+              <button class="nav-header sub-nav-header" onclick="toggleGroup(this)">Unit 4: Forces</button>
+              <div class="nav-links-container">
+                <a onclick="navigateTo('u4-forces', null, 'nav-u4-forces')" class="nav-item nav-link" id="nav-u4-forces">Unit Overview</a>
+                <a onclick="navigateTo('u4-forces', 'u4.1', 'nav-u4-1')" class="nav-sub nav-link" id="nav-u4-1">4.1 Newton's Laws in Simple Words</a>
+                <a onclick="navigateTo('u4-forces', 'u4.2', 'nav-u4-2')" class="nav-sub nav-link" id="nav-u4-2">4.2 Free Body Diagrams (FBD)</a>
+                <a onclick="navigateTo('u4-forces', 'u4.3', 'nav-u4-3')" class="nav-sub nav-link" id="nav-u4-3">4.3 Net Force and Motion Direction</a>
+                <a onclick="navigateTo('u4-forces', 'u4.equations', 'nav-u4-equations')" class="nav-sub nav-link" id="nav-u4-equations">4.E Equation Sheet</a>
+                <a onclick="navigateTo('u4-forces', 'u4.activity', 'nav-u4-activity')" class="nav-sub nav-link" id="nav-u4-activity">4.A Activity</a>
+                <a onclick="navigateTo('u4-forces', 'u4.mastery', 'nav-u4-mastery')" class="nav-sub nav-link" id="nav-u4-mastery">4.M Mastery Check</a>
+              </div>
+            </div>
+
+            <div class="nav-group collapsed">
+              <button class="nav-header sub-nav-header" onclick="toggleGroup(this)">Unit 5: Momentum</button>
+              <div class="nav-links-container">
+                <a onclick="navigateTo('u5-momentum', null, 'nav-u5-momentum')" class="nav-item nav-link" id="nav-u5-momentum">Unit Overview</a>
+                <a onclick="navigateTo('u5-momentum', 'u5.1', 'nav-u5-1')" class="nav-sub nav-link" id="nav-u5-1">5.1 Momentum and Impulse</a>
+                <a onclick="navigateTo('u5-momentum', 'u5.2', 'nav-u5-2')" class="nav-sub nav-link" id="nav-u5-2">5.2 Collision Types</a>
+                <a onclick="navigateTo('u5-momentum', 'u5.3', 'nav-u5-3')" class="nav-sub nav-link" id="nav-u5-3">5.3 Conservation in Real Cases</a>
+                <a onclick="navigateTo('u5-momentum', 'u5.equations', 'nav-u5-equations')" class="nav-sub nav-link" id="nav-u5-equations">5.E Equation Sheet</a>
+                <a onclick="navigateTo('u5-momentum', 'u5.activity', 'nav-u5-activity')" class="nav-sub nav-link" id="nav-u5-activity">5.A Activity</a>
+                <a onclick="navigateTo('u5-momentum', 'u5.mastery', 'nav-u5-mastery')" class="nav-sub nav-link" id="nav-u5-mastery">5.M Mastery Check</a>
+              </div>
+            </div>
+
+            <div class="nav-group collapsed">
+              <button class="nav-header sub-nav-header" onclick="toggleGroup(this)">Unit 6: Energy</button>
+              <div class="nav-links-container">
+                <a onclick="navigateTo('u6-energy', null, 'nav-u6-energy')" class="nav-item nav-link" id="nav-u6-energy">Unit Overview</a>
+                <a onclick="navigateTo('u6-energy', 'u6.1', 'nav-u6-1')" class="nav-sub nav-link" id="nav-u6-1">6.1 Kinetic and Gravitational Energy</a>
+                <a onclick="navigateTo('u6-energy', 'u6.2', 'nav-u6-2')" class="nav-sub nav-link" id="nav-u6-2">6.2 Conservation Idea</a>
+                <a onclick="navigateTo('u6-energy', 'u6.3', 'nav-u6-3')" class="nav-sub nav-link" id="nav-u6-3">6.3 Power as Energy Rate</a>
+                <a onclick="navigateTo('u6-energy', 'u6.equations', 'nav-u6-equations')" class="nav-sub nav-link" id="nav-u6-equations">6.E Equation Sheet</a>
+                <a onclick="navigateTo('u6-energy', 'u6.activity', 'nav-u6-activity')" class="nav-sub nav-link" id="nav-u6-activity">6.A Activity</a>
+                <a onclick="navigateTo('u6-energy', 'u6.mastery', 'nav-u6-mastery')" class="nav-sub nav-link" id="nav-u6-mastery">6.M Mastery Check</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="sidebar-cta-wrap">
+        <button class="challenge-btn nav-link" id="nav-challenge-zone" onclick="navigateTo('challenge-zone', null, 'nav-challenge-zone')">Physics Quickfire Studio</button>
+      </div>
+    </nav>
+
+    <main class="main" id="main-scroll">
+      <div class="content-container">
+
+        <section id="intro-page" class="content-section active">
+          <div class="title-page">
+            <div class="tp-title">Integrated Physics<br>Curriculum Guide</div>
+            <div class="tp-divider"></div>
+            <div class="tp-subtitle">Clear formulas, beginner-friendly explanations, and interactive practice</div>
+            <div class="tp-author">Vihari Battula</div>
+          </div>
+
+          <div class="engagement-strip">
+            <button class="action-pill" onclick="navigateTo('u1-position-velocity', null, 'nav-u1-position-velocity')">Start Unit 1</button>
+            <button class="action-pill" onclick="navigateTo('challenge-zone', null, 'nav-challenge-zone')">Open Quickfire Game</button>
+            <button class="action-pill" onclick="navigateTo('study-system', null, 'nav-study-system')">Open Study System</button>
+          </div>
+        </section>
+
+        <section id="prologue" class="content-section">
+          <h1>Curriculum Intent</h1>
+          <div class="unit-intro">
+            <p>This guide is built for first-time learners. Every unit starts with plain-language ideas, then moves to equations, then practice. You are expected to show <strong>how</strong> you think, not only the final answer.</p>
+          </div>
+          <div class="planning-grid">
+            <article class="plan-card interactive-card">
+              <h4>How to Use This Guide</h4>
+              <ul class="check-list">
+                <li>Read the short concept explanation first.</li>
+                <li>Study the equation table to learn when each formula should be used.</li>
+                <li>Run the activity and then attempt mastery questions without notes.</li>
+              </ul>
+            </article>
+            <article class="plan-card interactive-card">
+              <h4>How You Will Be Evaluated</h4>
+              <ul class="check-list">
+                <li>Good setup and reasoning are prioritized.</li>
+                <li>Sketches/graphs/FBDs matter in grading.</li>
+                <li>A small arithmetic mistake is less important than a wrong model choice.</li>
+              </ul>
+            </article>
+          </div>
+        </section>
+
+        <section id="study-system" class="content-section">
+          <h1>Study System</h1>
+          <p class="section-intro">Use this sequence each day: <strong>Learn -> Visualize -> Solve -> Check -> Reflect</strong>. This keeps the course active and helps you remember concepts for tests and projects.</p>
+
+          <div id="progressAnchor" class="progress-card interactive-card">
+            <h3>Progress Tracker</h3>
+            <p>Mark completed checkpoints. Progress is saved on this device.</p>
+            <div class="progress-grid">
+              <label><input type="checkbox" data-progress="u1done"> Unit 1 complete</label>
+              <label><input type="checkbox" data-progress="u2done"> Unit 2 complete</label>
+              <label><input type="checkbox" data-progress="u3done"> Unit 3 complete</label>
+              <label><input type="checkbox" data-progress="u4done"> Unit 4 complete</label>
+              <label><input type="checkbox" data-progress="u5done"> Unit 5 complete</label>
+              <label><input type="checkbox" data-progress="u6done"> Unit 6 complete</label>
+            </div>
+          </div>
+
+          <h3>Core Graphs You Must Read Fluently</h3>
+          <div class="graph-gallery">
+            <article class="graph-card interactive-card">
+              <h4>Displacement-Time (d-t)</h4>
+              <svg viewBox="0 0 260 160" aria-label="displacement time graph">
+                <line x1="30" y1="130" x2="240" y2="130" class="axis" />
+                <line x1="30" y1="20" x2="30" y2="130" class="axis" />
+                <polyline points="30,120 90,95 150,70 210,45" class="curve" />
+                <text x="235" y="145">t</text>
+                <text x="10" y="26">d</text>
+              </svg>
+              <p>Slope tells you velocity. Steeper line means faster change in position.</p>
+            </article>
+
+            <article class="graph-card interactive-card">
+              <h4>Velocity-Time (v-t)</h4>
+              <svg viewBox="0 0 260 160" aria-label="velocity time graph">
+                <line x1="30" y1="130" x2="240" y2="130" class="axis" />
+                <line x1="30" y1="20" x2="30" y2="130" class="axis" />
+                <polyline points="30,110 90,95 150,80 210,65" class="curve" />
+                <text x="235" y="145">t</text>
+                <text x="10" y="26">v</text>
+              </svg>
+              <p>Slope tells you acceleration. Area under the line tells displacement.</p>
+            </article>
+
+            <article class="graph-card interactive-card">
+              <h4>Acceleration-Time (a-t)</h4>
+              <svg viewBox="0 0 260 160" aria-label="acceleration time graph">
+                <line x1="30" y1="130" x2="240" y2="130" class="axis" />
+                <line x1="30" y1="20" x2="30" y2="130" class="axis" />
+                <line x1="30" y1="75" x2="230" y2="75" class="curve" />
+                <text x="235" y="145">t</text>
+                <text x="10" y="26">a</text>
+              </svg>
+              <p>Flat line above zero means constant positive acceleration.</p>
+            </article>
+          </div>
+
+          <h3>Free Body Diagrams (FBD) Basics</h3>
+          <div class="fbd-wrap interactive-card">
+            <svg viewBox="0 0 420 210" aria-label="free body diagram example">
+              <rect x="165" y="95" width="90" height="50" class="fbd-block" />
+              <line x1="210" y1="95" x2="210" y2="45" class="fbd-arrow" />
+              <text x="214" y="42">N</text>
+              <line x1="210" y1="145" x2="210" y2="190" class="fbd-arrow" />
+              <text x="214" y="205">W=mg</text>
+              <line x1="255" y1="120" x2="320" y2="120" class="fbd-arrow" />
+              <text x="324" y="124">F applied</text>
+              <line x1="165" y1="120" x2="110" y2="120" class="fbd-arrow" />
+              <text x="58" y="124">f or drag</text>
+            </svg>
+            <p><strong>How to read this:</strong> one box is your system. Every arrow is one external force on that system. Then apply \(\Sigma F = ma\) by axis.</p>
+          </div>
+        </section>
+
+        <section id="course-map" class="content-section">
+          <h1>Course Map</h1>
+          <table class="syllabus-table">
+            <thead>
+              <tr><th>Unit</th><th>Main Idea</th><th>Core Skill</th><th>PDF Link</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>1. Position and Velocity</td><td>Where objects are and how they move</td><td>Graph reading and motion language</td><td>Pages 1-12</td></tr>
+              <tr><td>2. Acceleration</td><td>How velocity changes</td><td>Kinematics setup and equation choice</td><td>Pages 13-15</td></tr>
+              <tr><td>3. Projectile Motion</td><td>2D motion with gravity</td><td>Separate x and y reasoning</td><td>Pages 16-24</td></tr>
+              <tr><td>4. Forces</td><td>Why motion changes</td><td>Free body diagrams and net force</td><td>Pages 25-38</td></tr>
+              <tr><td>5. Momentum</td><td>Collisions and impulse</td><td>Conservation modeling</td><td>Pages 39-44</td></tr>
+              <tr><td>6. Energy</td><td>Tracking kinetic and potential energy</td><td>Energy bookkeeping</td><td>Expanded continuity</td></tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section id="quizzes-hub" class="content-section">
+          <h1>Lab Quizzes</h1>
+          <div class="planning-grid three-col">
+            <article class="plan-card interactive-card"><h4>Before Lab</h4><p>Short check on units, symbols, and setup choices.</p></article>
+            <article class="plan-card interactive-card"><h4>During Lab</h4><p>One graph plus one explanation question while data is collected.</p></article>
+            <article class="plan-card interactive-card"><h4>After Lab</h4><p>Reflection: what assumption was strongest and what limitation mattered most?</p></article>
+          </div>
+        </section>
+
+        <section id="exam-blueprint" class="content-section">
+          <h1>Exam Blueprint</h1>
+          <div class="planning-grid">
+            <article class="plan-card interactive-card">
+              <h4>Weighting</h4>
+              <ul class="check-list">
+                <li><strong>Lab quizzes: 10%</strong></li>
+                <li><strong>Tests and projects: 90%</strong></li>
+              </ul>
+            </article>
+            <article class="plan-card interactive-card">
+              <h4>How Tests Are Graded</h4>
+              <ul class="check-list">
+                <li>Understanding of concept over final numeric answer.</li>
+                <li>Correct model choice and method steps are critical.</li>
+                <li>Clear reasoning and diagrams can earn strong credit.</li>
+              </ul>
+            </article>
+          </div>
+        </section>
+        <section id="u1-position-velocity" class="content-section">
+          <h1>Unit 1: Position and Velocity</h1>
+          <div class="unit-intro">
+            <p>This is your foundation unit. If you understand this unit deeply, every other unit gets easier.</p>
+          </div>
+
+          <h3 id="u1.1">1.1 Position and Displacement</h3>
+          <p><strong>Position</strong> tells where something is. <strong>Displacement</strong> tells how far and in what direction position changed.</p>
+          <p>Think of it like this: distance is "how much path you walked," displacement is "where you ended compared to where you started."</p>
+
+          <h3 id="u1.2">1.2 Distance, Speed, and Velocity</h3>
+          <p>Speed is how fast (no direction). Velocity is how fast with direction. A trip out and back can have high speed but zero displacement, so average velocity can be zero.</p>
+
+          <h3 id="u1.3">1.3 d-t and v-t Graph Basics</h3>
+          <p>On a displacement-time graph, slope gives velocity. On velocity-time graph, area gives displacement.</p>
+          <div class="concept-note">Beginner tip: ask "What are the axes?" before reading any graph. Most mistakes start by reading the wrong axis meaning.</div>
+
+          <h3 id="u1.equations">1.E Equation Sheet</h3>
+          <table class="equation-table">
+            <thead><tr><th>Equation</th><th>What It Means</th><th>When to Use</th><th>Common Mistake</th></tr></thead>
+            <tbody>
+              <tr><td>\(\Delta d = d_f - d_i\)</td><td>Displacement from start and end positions</td><td>You know starting and ending position</td><td>Using total path distance in place of displacement</td></tr>
+              <tr><td>\(v_{avg} = \dfrac{\Delta d}{\Delta t}\)</td><td>Average velocity over a time interval</td><td>You know displacement and time change</td><td>Using distance instead of displacement</td></tr>
+              <tr><td>\(d_f = d_i + vt\)</td><td>Uniform motion model (constant velocity)</td><td>No acceleration in interval</td><td>Using when velocity is changing</td></tr>
+              <tr><td>\(\Delta d = \text{area under }v\text{-}t\)</td><td>Displacement from velocity graph</td><td>Graph-based motion problems</td><td>Treating area as final position instead of change</td></tr>
+            </tbody>
+          </table>
+
+          <h3 id="u1.activity">1.A Activity: Motion Change Calculator</h3>
+          <div class="activity-card interactive-card">
+            <p>Use this to practice the meaning of displacement and average velocity.</p>
+            <div class="activity-grid three-col">
+              <label>Initial position \(d_i\) (m) <input type="number" id="u1di" value="2" step="any"></label>
+              <label>Final position \(d_f\) (m) <input type="number" id="u1df" value="14" step="any"></label>
+              <label>Time \(\Delta t\) (s) <input type="number" id="u1dt" value="4" step="any"></label>
+            </div>
+            <button class="btn-reveal" id="u1CalcBtn">Compute</button>
+            <div class="activity-output" id="u1Output">Result will appear here.</div>
+          </div>
+
+          <h3 id="u1.mastery">1.M Mastery Check</h3>
+          <div class="question-bank">
+            <div class="question-item"><p><strong>Q1.</strong> You walk 8 m east then 3 m west. Distance and displacement?</p><button class="btn-reveal" onclick="toggleOne('ans-u1-1')">Reveal</button><div class="answer" id="ans-u1-1">Distance = 11 m. Displacement = +5 m east.</div></div>
+            <div class="question-item"><p><strong>Q2.</strong> Why can average velocity be zero while speed is not zero?</p><button class="btn-reveal" onclick="toggleOne('ans-u1-2')">Reveal</button><div class="answer" id="ans-u1-2">Because velocity depends on displacement, which can cancel out on a round trip.</div></div>
+          </div>
+        </section>
+
+        <section id="u2-acceleration" class="content-section">
+          <h1>Unit 2: Acceleration</h1>
+          <div class="unit-intro">
+            <p>Acceleration tells how quickly velocity changes. This includes speeding up, slowing down, and changing direction.</p>
+          </div>
+
+          <h3 id="u2.1">2.1 What Acceleration Means</h3>
+          <p>If velocity changes with time, acceleration exists. Positive/negative signs depend on your chosen axis direction.</p>
+
+          <h3 id="u2.2">2.2 v-t and a-t Graph Basics</h3>
+          <p>Velocity-time slope gives acceleration. Area under velocity-time gives displacement. Acceleration-time area gives change in velocity.</p>
+
+          <h3 id="u2.3">2.3 Constant vs Changing Acceleration</h3>
+          <p>When acceleration is constant, use constant-acceleration equations. If acceleration changes a lot, use graph methods or shorter intervals.</p>
+
+          <h3 id="u2.equations">2.E Equation Sheet</h3>
+          <table class="equation-table">
+            <thead><tr><th>Equation</th><th>What It Means</th><th>When to Use</th><th>Common Mistake</th></tr></thead>
+            <tbody>
+              <tr><td>\(a = \dfrac{\Delta v}{\Delta t}\)</td><td>Average acceleration</td><td>Known velocity change and time</td><td>Losing sign (+/-)</td></tr>
+              <tr><td>\(v_f = v_i + at\)</td><td>Final velocity for constant acceleration</td><td>Known \(v_i\), \(a\), \(t\)</td><td>Using when acceleration is not constant</td></tr>
+              <tr><td>\(\Delta d = v_i t + \dfrac{1}{2}at^2\)</td><td>Displacement with constant acceleration</td><td>Known \(v_i\), \(a\), \(t\)</td><td>Forgetting the \(\frac{1}{2}\)</td></tr>
+              <tr><td>\(\Delta d = \text{area under }v\text{-}t\)</td><td>Graph displacement method</td><td>Graph questions and nonuniform segments</td><td>Ignoring negative area regions</td></tr>
+            </tbody>
+          </table>
+
+          <h3 id="u2.activity">2.A Activity: Constant Acceleration Solver</h3>
+          <div class="activity-card interactive-card">
+            <p>Enter values for \(v_i\), \(a\), and \(t\). The tool computes \(v_f\) and \(\Delta d\).</p>
+            <div class="activity-grid three-col">
+              <label>\(v_i\) (m/s) <input type="number" id="u2vi" value="2" step="any"></label>
+              <label>\(a\) (m/s\(^2\)) <input type="number" id="u2a" value="1.5" step="any"></label>
+              <label>\(t\) (s) <input type="number" id="u2t" value="4" step="any"></label>
+            </div>
+            <button class="btn-reveal" id="u2CalcBtn">Solve</button>
+            <div class="activity-output" id="u2Output">Solution output will appear here.</div>
+          </div>
+
+          <h3 id="u2.mastery">2.M Mastery Check</h3>
+          <div class="question-bank">
+            <div class="question-item"><p><strong>Q1.</strong> A car slows from 22 m/s to 10 m/s in 4 s. Find acceleration.</p><button class="btn-reveal" onclick="toggleOne('ans-u2-1')">Reveal</button><div class="answer" id="ans-u2-1">\(a = (10-22)/4 = -3\,\text{m/s}^2\).</div></div>
+            <div class="question-item"><p><strong>Q2.</strong> Why can acceleration be negative?</p><button class="btn-reveal" onclick="toggleOne('ans-u2-2')">Reveal</button><div class="answer" id="ans-u2-2">Negative means direction on your chosen axis, not "bad" or "small" acceleration.</div></div>
+          </div>
+        </section>
+
+        <section id="u3-projectile-motion" class="content-section">
+          <h1>Unit 3: Projectile Motion</h1>
+          <div class="unit-intro">
+            <p>Projectile motion is easier when you split it into two simpler motions: horizontal and vertical.</p>
+          </div>
+
+          <h3 id="u3.1">3.1 Horizontal and Vertical Motion</h3>
+          <p><strong>Uniform horizontal movement</strong> means horizontal velocity stays constant, so horizontal position changes at a steady rate.</p>
+          <p>Why? In ideal projectile motion, gravity acts downward, not sideways, so it does not change horizontal velocity.</p>
+
+          <h3 id="u3.2">3.2 Trajectory and Time</h3>
+          <p>Trajectory is the path in space (x-y). It looks like a curve. Do not confuse it with a graph against time.</p>
+
+          <h3 id="u3.3">3.3 Circular Motion Connection</h3>
+          <p>Circular motion helps you see that velocity can change direction even when speed is steady.</p>
+
+          <h3 id="u3.equations">3.E Equation Sheet</h3>
+          <table class="equation-table">
+            <thead><tr><th>Equation</th><th>What It Means</th><th>When to Use</th><th>Common Mistake</th></tr></thead>
+            <tbody>
+              <tr><td>\(\Delta x = v_x t\)</td><td>Horizontal displacement</td><td>Projectile horizontal axis</td><td>Adding gravity term to x-motion</td></tr>
+              <tr><td>\(v_y = v_{iy} + gt\)</td><td>Vertical velocity update</td><td>Vertical projectile motion</td><td>Wrong sign for \(g\)</td></tr>
+              <tr><td>\(\Delta y = v_{iy}t + \dfrac{1}{2}gt^2\)</td><td>Vertical displacement</td><td>Vertical position change</td><td>Using \(v_x\) instead of \(v_{iy}\)</td></tr>
+              <tr><td>\(a_c = \dfrac{v^2}{R}\)</td><td>Centripetal acceleration magnitude</td><td>Uniform circular motion</td><td>Thinking acceleration points tangent</td></tr>
+            </tbody>
+          </table>
+
+          <h3 id="u3.activity">3.A Activity: Projectile Sandbox</h3>
+          <div class="activity-card interactive-card">
+            <p>Assumes same launch and landing height. Enter launch speed and angle.</p>
+            <div class="activity-grid three-col">
+              <label>\(v_0\) (m/s) <input type="number" id="u3v0" value="20" step="any"></label>
+              <label>Angle (deg) <input type="number" id="u3ang" value="35" step="any"></label>
+              <label>\(g\) (m/s\(^2\)) <input type="number" id="u3g" value="9.8" step="any"></label>
+            </div>
+            <button class="btn-reveal" id="u3CalcBtn">Simulate</button>
+            <div class="activity-output" id="u3Output">Range/time/height output will appear here.</div>
+          </div>
+
+          <h3 id="u3.mastery">3.M Mastery Check</h3>
+          <div class="question-bank">
+            <div class="question-item"><p><strong>Q1.</strong> Why is projectile horizontal motion uniform in the ideal model?</p><button class="btn-reveal" onclick="toggleOne('ans-u3-1')">Reveal</button><div class="answer" id="ans-u3-1">Because no horizontal force is included; gravity acts only vertically.</div></div>
+            <div class="question-item"><p><strong>Q2.</strong> If two objects start at same height, one dropped and one thrown horizontally, which lands first (ideal case)?</p><button class="btn-reveal" onclick="toggleOne('ans-u3-2')">Reveal</button><div class="answer" id="ans-u3-2">They land at the same time because vertical motion is independent of horizontal motion.</div></div>
+          </div>
+        </section>
+        <section id="u4-forces" class="content-section">
+          <h1>Unit 4: Forces</h1>
+          <div class="unit-intro">
+            <p>Forces explain why motion changes. This unit focuses on clear diagrams and direction-based thinking.</p>
+          </div>
+
+          <h3 id="u4.1">4.1 Newton's Laws in Simple Words</h3>
+          <ul class="check-list">
+            <li>1st law: no net force -> keep doing what you are already doing.</li>
+            <li>2nd law: more net force means more acceleration for same mass.</li>
+            <li>3rd law: forces come in pairs on different objects.</li>
+          </ul>
+
+          <h3 id="u4.2">4.2 Free Body Diagrams (FBD)</h3>
+          <p>An FBD is a picture of one object and all forces acting on it. It helps avoid equation mistakes.</p>
+          <div class="fbd-wrap interactive-card">
+            <svg viewBox="0 0 420 210" aria-label="free body diagram example second">
+              <rect x="170" y="95" width="80" height="48" class="fbd-block" />
+              <line x1="210" y1="95" x2="210" y2="48" class="fbd-arrow" />
+              <text x="215" y="45">N</text>
+              <line x1="210" y1="143" x2="210" y2="188" class="fbd-arrow" />
+              <text x="215" y="202">W</text>
+              <line x1="250" y1="120" x2="315" y2="120" class="fbd-arrow" />
+              <text x="320" y="124">Pull</text>
+              <line x1="170" y1="120" x2="118" y2="120" class="fbd-arrow" />
+              <text x="75" y="124">Resist</text>
+            </svg>
+            <p>Start with this question: "Which way is acceleration?" Then your net force must point that way.</p>
+          </div>
+
+          <h3 id="u4.3">4.3 Net Force and Motion Direction</h3>
+          <p>If rightward forces are larger than leftward forces, acceleration is rightward. If balanced, acceleration is zero.</p>
+
+          <h3 id="u4.equations">4.E Equation Sheet</h3>
+          <table class="equation-table">
+            <thead><tr><th>Equation</th><th>What It Means</th><th>When to Use</th><th>Common Mistake</th></tr></thead>
+            <tbody>
+              <tr><td>\(\Sigma F = ma\)</td><td>Net force causes acceleration</td><td>Any force-motion setup</td><td>Using one force instead of net force</td></tr>
+              <tr><td>\(W = mg\)</td><td>Weight force near Earth</td><td>Vertical force analysis</td><td>Mixing up mass and weight</td></tr>
+            </tbody>
+          </table>
+
+          <h3 id="u4.activity">4.A Activity: Net Force Direction Tool</h3>
+          <div class="activity-card interactive-card">
+            <p>Enter rightward and leftward total forces. Tool returns net force and acceleration direction.</p>
+            <div class="activity-grid three-col">
+              <label>Mass (kg) <input type="number" id="u4m" value="5" step="any"></label>
+              <label>Total rightward force (N) <input type="number" id="u4Fr" value="22" step="any"></label>
+              <label>Total leftward force (N) <input type="number" id="u4Fl" value="8" step="any"></label>
+            </div>
+            <button class="btn-reveal" id="u4CalcBtn">Analyze</button>
+            <div class="activity-output" id="u4Output">Net force output will appear here.</div>
+          </div>
+
+          <h3 id="u4.mastery">4.M Mastery Check</h3>
+          <div class="question-bank">
+            <div class="question-item"><p><strong>Q1.</strong> If net force is zero, can the object still move?</p><button class="btn-reveal" onclick="toggleOne('ans-u4-1')">Reveal</button><div class="answer" id="ans-u4-1">Yes, it can move at constant velocity with zero acceleration.</div></div>
+            <div class="question-item"><p><strong>Q2.</strong> Why is FBD usually the first step before equations?</p><button class="btn-reveal" onclick="toggleOne('ans-u4-2')">Reveal</button><div class="answer" id="ans-u4-2">Because it clarifies which forces exist and their directions, preventing wrong equation setup.</div></div>
+          </div>
+        </section>
+
+        <section id="u5-momentum" class="content-section">
+          <h1>Unit 5: Momentum</h1>
+          <div class="unit-intro">
+            <p>Momentum explains collisions very effectively. This unit connects directly to safety examples like airbags and landing surfaces.</p>
+          </div>
+
+          <h3 id="u5.1">5.1 Momentum and Impulse</h3>
+          <p>Momentum depends on mass and velocity. Impulse is force applied over time and equals change in momentum.</p>
+
+          <h3 id="u5.2">5.2 Collision Types</h3>
+          <p>Elastic and inelastic collisions both conserve momentum in closed systems. The big difference is whether kinetic energy stays the same.</p>
+
+          <h3 id="u5.3">5.3 Conservation in Real Cases</h3>
+          <p>Always set a direction sign first. Many collision mistakes come from inconsistent signs.</p>
+
+          <h3 id="u5.equations">5.E Equation Sheet</h3>
+          <table class="equation-table">
+            <thead><tr><th>Equation</th><th>What It Means</th><th>When to Use</th><th>Common Mistake</th></tr></thead>
+            <tbody>
+              <tr><td>\(p = mv\)</td><td>Linear momentum</td><td>Any momentum setup</td><td>Ignoring direction sign in velocity</td></tr>
+              <tr><td>\(J = F\Delta t\)</td><td>Impulse from average force</td><td>Known force duration</td><td>Mixing up units</td></tr>
+              <tr><td>\(J = \Delta p\)</td><td>Impulse-momentum link</td><td>Velocity change problems</td><td>Dropping initial velocity sign</td></tr>
+              <tr><td>\(\Sigma p_i = \Sigma p_f\)</td><td>Momentum conservation</td><td>Closed-system collisions</td><td>Applying when strong external force acts</td></tr>
+              <tr><td>\(v_f = \dfrac{m_1v_1 + m_2v_2}{m_1+m_2}\)</td><td>Perfectly inelastic final speed</td><td>Objects stick together</td><td>Using for non-sticking collisions</td></tr>
+            </tbody>
+          </table>
+
+          <h3 id="u5.activity">5.A Activity: Collision Calculator</h3>
+          <div class="activity-card interactive-card">
+            <p>Choose collision type and compare outcomes.</p>
+            <div class="activity-grid four-col">
+              <label>\(m_1\) (kg) <input type="number" id="u5m1" value="2" step="any"></label>
+              <label>\(v_1\) (m/s) <input type="number" id="u5v1" value="4" step="any"></label>
+              <label>\(m_2\) (kg) <input type="number" id="u5m2" value="3" step="any"></label>
+              <label>\(v_2\) (m/s) <input type="number" id="u5v2" value="0" step="any"></label>
+            </div>
+            <div class="activity-grid two-col">
+              <label><input type="radio" name="u5type" value="inelastic" checked> Perfectly inelastic</label>
+              <label><input type="radio" name="u5type" value="elastic"> Elastic (ideal 1D)</label>
+            </div>
+            <button class="btn-reveal" id="u5CalcBtn">Compute</button>
+            <div class="activity-output" id="u5Output">Collision output will appear here.</div>
+          </div>
+
+          <h3 id="u5.mastery">5.M Mastery Check</h3>
+          <div class="question-bank">
+            <div class="question-item"><p><strong>Q1.</strong> Why do airbags reduce force on passengers?</p><button class="btn-reveal" onclick="toggleOne('ans-u5-1')">Reveal</button><div class="answer" id="ans-u5-1">They increase collision time, so average force is smaller for the same momentum change.</div></div>
+            <div class="question-item"><p><strong>Q2.</strong> Is momentum conserved in inelastic collisions?</p><button class="btn-reveal" onclick="toggleOne('ans-u5-2')">Reveal</button><div class="answer" id="ans-u5-2">Yes, in a closed system, momentum is conserved even if kinetic energy changes.</div></div>
+          </div>
+        </section>
+
+        <section id="u6-energy" class="content-section">
+          <h1>Unit 6: Energy</h1>
+          <div class="unit-intro">
+            <p>This unit helps you track energy states simply: motion energy and height energy. It connects strongly to earlier kinematics and forces units.</p>
+          </div>
+
+          <h3 id="u6.1">6.1 Kinetic and Gravitational Energy</h3>
+          <p>Kinetic energy depends on speed. Gravitational potential energy depends on height in a chosen reference system.</p>
+
+          <h3 id="u6.2">6.2 Conservation Idea</h3>
+          <p>If losses are small, total mechanical energy stays about constant while energy shifts between forms.</p>
+
+          <h3 id="u6.3">6.3 Power as Energy Rate</h3>
+          <p>Power tells how quickly energy changes over time.</p>
+
+          <h3 id="u6.equations">6.E Equation Sheet</h3>
+          <table class="equation-table">
+            <thead><tr><th>Equation</th><th>What It Means</th><th>When to Use</th><th>Common Mistake</th></tr></thead>
+            <tbody>
+              <tr><td>\(K = \dfrac{1}{2}mv^2\)</td><td>Kinetic energy</td><td>Moving objects</td><td>Forgetting to square \(v\)</td></tr>
+              <tr><td>\(U_g = mgh\)</td><td>Gravitational potential energy</td><td>Near-Earth height change</td><td>Not stating height reference level</td></tr>
+              <tr><td>\(E_{mech} = K + U_g\)</td><td>Mechanical energy total</td><td>Track two energy stores</td><td>Mixing signs and reference levels</td></tr>
+              <tr><td>\(P = \dfrac{\Delta E}{\Delta t}\)</td><td>Power as energy-rate</td><td>Rate/effort comparisons</td><td>Using wrong energy interval</td></tr>
+            </tbody>
+          </table>
+
+          <h3 id="u6.activity">6.A Activity: Energy Budget Tool</h3>
+          <div class="activity-card interactive-card">
+            <p>Compute \(K\), \(U_g\), and total mechanical energy for a chosen state.</p>
+            <div class="activity-grid four-col">
+              <label>Mass \(m\) (kg) <input type="number" id="u6m" value="2" step="any"></label>
+              <label>Speed \(v\) (m/s) <input type="number" id="u6v" value="6" step="any"></label>
+              <label>Height \(h\) (m) <input type="number" id="u6h" value="3" step="any"></label>
+              <label>\(g\) (m/s\(^2\)) <input type="number" id="u6g" value="9.8" step="any"></label>
+            </div>
+            <button class="btn-reveal" id="u6CalcBtn">Compute</button>
+            <div class="activity-output" id="u6Output">Energy output will appear here.</div>
+          </div>
+
+          <h3 id="u6.mastery">6.M Mastery Check</h3>
+          <div class="question-bank">
+            <div class="question-item"><p><strong>Q1.</strong> If speed doubles, what happens to kinetic energy?</p><button class="btn-reveal" onclick="toggleOne('ans-u6-1')">Reveal</button><div class="answer" id="ans-u6-1">It becomes 4 times larger because \(K\propto v^2\).</div></div>
+            <div class="question-item"><p><strong>Q2.</strong> Why do we choose a reference level for \(U_g\)?</p><button class="btn-reveal" onclick="toggleOne('ans-u6-2')">Reveal</button><div class="answer" id="ans-u6-2">Because potential energy is relative; only changes in \(U_g\) are physically meaningful.</div></div>
+          </div>
+        </section>
+
+        <section id="challenge-zone" class="content-section">
+          <h1>Physics Quickfire Studio</h1>
+          <p class="section-intro">Fast question game for concept recall. Designed for beginners to check understanding in short bursts.</p>
+          <div class="game-card interactive-card">
+            <p id="gamePrompt">Press Start to begin quickfire.</p>
+            <div id="gameChoices" class="choice-grid"></div>
+            <div class="game-controls">
+              <button class="btn-reveal" id="gameStartBtn">Start / Next</button>
+              <button class="btn-reveal" id="gameResetBtn">Reset Score</button>
+            </div>
+            <div class="activity-output" id="gameOutput">Score: 0 / 0</div>
+          </div>
+        </section>
+
+      </div>
+
+      <footer class="doc-footer">
+        <div class="footer-content">
+          <span>Integrated Physics Curriculum - beginner-friendly, equation-organized, and interactive.</span>
+          <div class="footer-links">
+            <a href="#" onclick="navigateTo('study-system', null, 'nav-study-system'); return false;">Study System</a>
+            <a href="#" onclick="navigateTo('challenge-zone', null, 'nav-challenge-zone'); return false;">Quickfire</a>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </div>
+
+  <script src="physics-theme.js"></script>
+</body>
+</html>
